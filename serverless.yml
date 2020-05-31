@@ -17,7 +17,7 @@ functions:
     handler: src/api/index.handler
     events:
       - http:
-          path: /
+          path: /orders
           method: get
 
 custom:
